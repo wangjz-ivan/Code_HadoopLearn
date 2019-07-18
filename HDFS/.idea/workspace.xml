@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05d93d6b-ae5e-4ebe-883a-c99ee082ca52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="05d93d6b-ae5e-4ebe-883a-c99ee082ca52" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +21,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileCopyFromLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="-308">
               <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
@@ -67,6 +65,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/wordcount/WordCountMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileCopyFromLocal.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../testGITGUI.txt" />
       </list>
     </option>
   </component>
@@ -312,7 +311,7 @@
       <workItem from="1563420566087" duration="2821000" />
       <workItem from="1563440471847" duration="443000" />
       <workItem from="1563441433469" duration="726000" />
-      <workItem from="1563442230363" duration="1341000" />
+      <workItem from="1563442230363" duration="1584000" />
     </task>
     <task id="LOCAL-00001" summary="modify pom.xml">
       <created>1563442546056</created>
@@ -328,14 +327,22 @@
       <option name="project" value="LOCAL" />
       <updated>1563442620474</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="linux">
+      <created>1563446265484</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563446265484</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7822000" />
+    <option name="totallyTimeSpent" value="8065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1360" height="600" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.13643293" />
       <window_info id="Image Layers" order="1" />
@@ -353,7 +360,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.57184327" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5005821" side_tool="true" weight="0.54587156" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3287037" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49941793" weight="0.43541363" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -362,7 +369,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24973261" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.30395138" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.30335367" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -375,23 +382,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modify pom.xml" />
     <MESSAGE value="modify pom.xml &#10;resolve duplicate dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify pom.xml &#10;resolve duplicate dependency" />
+    <MESSAGE value="linux" />
+    <option name="LAST_COMMIT_MESSAGE" value="linux" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/partitioner/WordCountMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/partitioner/WordCountReduce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/partitioner/WordCountMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -592,9 +586,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../testGITGUI.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../测试git工具.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileCopyFromLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="-308">
           <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
