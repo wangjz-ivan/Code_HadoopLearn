@@ -1,0 +1,1438 @@
+2019-06-27 18:08:22 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-27 18:22:22 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-27 18:22:24 [ INFO] - org.apache.hadoop.yarn.client.ConfiguredRMFailoverProxyProvider -ConfiguredRMFailoverProxyProvider.java(100) -Failing over to rm2
+2019-06-27 18:22:24 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(147) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-06-27 18:22:24 [ INFO] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(883) -Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/bruce/.staging/job_1561629920484_0001
+2019-06-27 18:22:24 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(480) -No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-06-27 18:22:24 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(292) -Total input files to process : 1
+2019-06-27 18:22:25 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(202) -number of splits:1
+2019-06-27 18:22:26 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(298) -Submitting tokens for job: job_1561629920484_0001
+2019-06-27 18:22:26 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(299) -Executing with tokens: []
+2019-06-27 18:22:26 [ INFO] - org.apache.hadoop.mapred.YARNRunner -YARNRunner.java(426) -Job jar is not present. Not adding any jar to the list of resources.
+2019-06-27 18:22:26 [ INFO] - org.apache.hadoop.conf.Configuration -Configuration.java(2752) -resource-types.xml not found
+2019-06-27 18:22:26 [ INFO] - org.apache.hadoop.yarn.util.resource.ResourceUtils -ResourceUtils.java(418) -Unable to find 'resource-types.xml'.
+2019-06-27 18:22:27 [ INFO] - org.apache.hadoop.yarn.client.api.impl.YarnClientImpl -YarnClientImpl.java(324) -Submitted application application_1561629920484_0001
+2019-06-27 18:22:27 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1574) -The url to track the job: http://node-04:8088/proxy/application_1561629920484_0001/
+2019-06-27 18:22:27 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1619) -Running job: job_1561629920484_0001
+2019-06-27 18:22:35 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1640) -Job job_1561629920484_0001 running in uber mode : false
+2019-06-27 18:22:35 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 0% reduce 0%
+2019-06-27 18:22:40 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561629920484_0001_m_000000_0, Status : FAILED
+2019-06-27 18:22:43 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561629920484_0001_m_000000_1, Status : FAILED
+2019-06-27 18:22:48 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561629920484_0001_m_000000_2, Status : FAILED
+2019-06-27 18:22:53 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 100%
+2019-06-27 18:22:53 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1660) -Job job_1561629920484_0001 failed with state FAILED due to: Task failed task_1561629920484_0001_m_000000
+Job failed as tasks failed. failedMaps:1 failedReduces:0 killedMaps:0 killedReduces: 0
+
+2019-06-27 18:22:53 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1665) -Counters: 10
+	Job Counters 
+		Failed map tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Other local map tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=9921
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=9921
+		Total vcore-milliseconds taken by all map tasks=9921
+		Total megabyte-milliseconds taken by all map tasks=10159104
+2019-06-27 18:24:04 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-27 18:24:19 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-27 18:24:22 [ INFO] - org.apache.hadoop.yarn.client.ConfiguredRMFailoverProxyProvider -ConfiguredRMFailoverProxyProvider.java(100) -Failing over to rm2
+2019-06-27 18:24:23 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(147) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-06-27 18:24:23 [ INFO] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(883) -Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/bruce/.staging/job_1561629920484_0002
+2019-06-27 18:24:23 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(480) -No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-06-27 18:24:23 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(292) -Total input files to process : 1
+2019-06-27 18:24:24 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(202) -number of splits:1
+2019-06-27 18:24:24 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(298) -Submitting tokens for job: job_1561629920484_0002
+2019-06-27 18:24:24 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(299) -Executing with tokens: []
+2019-06-27 18:24:24 [ INFO] - org.apache.hadoop.mapred.YARNRunner -YARNRunner.java(426) -Job jar is not present. Not adding any jar to the list of resources.
+2019-06-27 18:24:24 [ INFO] - org.apache.hadoop.conf.Configuration -Configuration.java(2752) -resource-types.xml not found
+2019-06-27 18:24:24 [ INFO] - org.apache.hadoop.yarn.util.resource.ResourceUtils -ResourceUtils.java(418) -Unable to find 'resource-types.xml'.
+2019-06-27 18:24:24 [ INFO] - org.apache.hadoop.yarn.client.api.impl.YarnClientImpl -YarnClientImpl.java(324) -Submitted application application_1561629920484_0002
+2019-06-27 18:24:24 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1574) -The url to track the job: http://node-04:8088/proxy/application_1561629920484_0002/
+2019-06-27 18:24:24 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1619) -Running job: job_1561629920484_0002
+2019-06-27 18:24:31 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1640) -Job job_1561629920484_0002 running in uber mode : false
+2019-06-27 18:24:31 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 0% reduce 0%
+2019-06-27 18:24:35 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561629920484_0002_m_000000_0, Status : FAILED
+2019-06-27 18:24:41 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561629920484_0002_m_000000_1, Status : FAILED
+2019-06-27 18:24:47 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561629920484_0002_m_000000_2, Status : FAILED
+2019-06-27 18:24:52 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 100%
+2019-06-27 18:24:52 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1660) -Job job_1561629920484_0002 failed with state FAILED due to: Task failed task_1561629920484_0002_m_000000
+Job failed as tasks failed. failedMaps:1 failedReduces:0 killedMaps:0 killedReduces: 0
+
+2019-06-27 18:24:52 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1665) -Counters: 10
+	Job Counters 
+		Failed map tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Other local map tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=11763
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=11763
+		Total vcore-milliseconds taken by all map tasks=11763
+		Total megabyte-milliseconds taken by all map tasks=12045312
+2019-06-27 18:29:20 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-27 18:29:21 [ INFO] - org.apache.hadoop.yarn.client.ConfiguredRMFailoverProxyProvider -ConfiguredRMFailoverProxyProvider.java(100) -Failing over to rm2
+2019-06-27 18:29:22 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(147) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-06-27 18:29:22 [ INFO] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(883) -Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/bruce/.staging/job_1561629920484_0003
+2019-06-27 18:29:22 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(480) -No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-06-27 18:29:22 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(292) -Total input files to process : 1
+2019-06-27 18:29:22 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(202) -number of splits:1
+2019-06-27 18:29:23 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(298) -Submitting tokens for job: job_1561629920484_0003
+2019-06-27 18:29:23 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(299) -Executing with tokens: []
+2019-06-27 18:29:23 [ INFO] - org.apache.hadoop.mapred.YARNRunner -YARNRunner.java(426) -Job jar is not present. Not adding any jar to the list of resources.
+2019-06-27 18:29:23 [ INFO] - org.apache.hadoop.conf.Configuration -Configuration.java(2752) -resource-types.xml not found
+2019-06-27 18:29:23 [ INFO] - org.apache.hadoop.yarn.util.resource.ResourceUtils -ResourceUtils.java(418) -Unable to find 'resource-types.xml'.
+2019-06-27 18:29:23 [ INFO] - org.apache.hadoop.yarn.client.api.impl.YarnClientImpl -YarnClientImpl.java(324) -Submitted application application_1561629920484_0003
+2019-06-27 18:29:23 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1574) -The url to track the job: http://node-04:8088/proxy/application_1561629920484_0003/
+2019-06-27 18:29:23 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1619) -Running job: job_1561629920484_0003
+2019-06-27 18:29:29 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1640) -Job job_1561629920484_0003 running in uber mode : false
+2019-06-27 18:29:29 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 0% reduce 0%
+2019-06-27 18:29:33 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561629920484_0003_m_000000_0, Status : FAILED
+2019-06-27 18:29:36 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561629920484_0003_m_000000_1, Status : FAILED
+2019-06-27 18:29:39 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561629920484_0003_m_000000_2, Status : FAILED
+2019-06-27 18:29:44 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 100%
+2019-06-27 18:29:44 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1660) -Job job_1561629920484_0003 failed with state FAILED due to: Task failed task_1561629920484_0003_m_000000
+Job failed as tasks failed. failedMaps:1 failedReduces:0 killedMaps:0 killedReduces: 0
+
+2019-06-27 18:29:44 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1665) -Counters: 10
+	Job Counters 
+		Failed map tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Other local map tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=8369
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=8369
+		Total vcore-milliseconds taken by all map tasks=8369
+		Total megabyte-milliseconds taken by all map tasks=8569856
+2019-06-27 18:33:21 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-27 18:33:36 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-27 18:33:37 [ INFO] - org.apache.hadoop.yarn.client.ConfiguredRMFailoverProxyProvider -ConfiguredRMFailoverProxyProvider.java(100) -Failing over to rm2
+2019-06-27 18:33:37 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(147) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-06-27 18:33:37 [ INFO] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(883) -Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/bruce/.staging/job_1561629920484_0004
+2019-06-27 18:33:37 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(480) -No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-06-27 18:33:37 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(292) -Total input files to process : 1
+2019-06-27 18:33:38 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(202) -number of splits:1
+2019-06-27 18:33:38 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(298) -Submitting tokens for job: job_1561629920484_0004
+2019-06-27 18:33:38 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(299) -Executing with tokens: []
+2019-06-27 18:33:38 [ INFO] - org.apache.hadoop.mapred.YARNRunner -YARNRunner.java(426) -Job jar is not present. Not adding any jar to the list of resources.
+2019-06-27 18:33:39 [ INFO] - org.apache.hadoop.conf.Configuration -Configuration.java(2752) -resource-types.xml not found
+2019-06-27 18:33:39 [ INFO] - org.apache.hadoop.yarn.util.resource.ResourceUtils -ResourceUtils.java(418) -Unable to find 'resource-types.xml'.
+2019-06-27 18:33:39 [ INFO] - org.apache.hadoop.yarn.client.api.impl.YarnClientImpl -YarnClientImpl.java(324) -Submitted application application_1561629920484_0004
+2019-06-27 18:33:39 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1574) -The url to track the job: http://node-04:8088/proxy/application_1561629920484_0004/
+2019-06-27 18:33:39 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1619) -Running job: job_1561629920484_0004
+2019-06-27 18:33:46 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1640) -Job job_1561629920484_0004 running in uber mode : false
+2019-06-27 18:33:46 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 0% reduce 0%
+2019-06-27 18:33:50 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561629920484_0004_m_000000_0, Status : FAILED
+2019-06-27 18:33:53 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561629920484_0004_m_000000_1, Status : FAILED
+2019-06-27 18:33:57 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561629920484_0004_m_000000_2, Status : FAILED
+2019-06-27 18:34:02 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 100%
+2019-06-27 18:34:02 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1660) -Job job_1561629920484_0004 failed with state FAILED due to: Task failed task_1561629920484_0004_m_000000
+Job failed as tasks failed. failedMaps:1 failedReduces:0 killedMaps:0 killedReduces: 0
+
+2019-06-27 18:34:02 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1665) -Counters: 10
+	Job Counters 
+		Failed map tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Other local map tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=8994
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=8994
+		Total vcore-milliseconds taken by all map tasks=8994
+		Total megabyte-milliseconds taken by all map tasks=9209856
+2019-06-27 18:51:57 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-27 18:52:15 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-27 18:52:16 [ INFO] - org.apache.hadoop.yarn.client.ConfiguredRMFailoverProxyProvider -ConfiguredRMFailoverProxyProvider.java(100) -Failing over to rm2
+2019-06-27 18:52:16 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(147) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-06-27 18:52:16 [ INFO] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(883) -Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/bruce/.staging/job_1561632549676_0004
+2019-06-27 18:52:17 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(292) -Total input files to process : 1
+2019-06-27 18:52:17 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(202) -number of splits:1
+2019-06-27 18:52:17 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(298) -Submitting tokens for job: job_1561632549676_0004
+2019-06-27 18:52:17 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(299) -Executing with tokens: []
+2019-06-27 18:52:17 [ INFO] - org.apache.hadoop.conf.Configuration -Configuration.java(2752) -resource-types.xml not found
+2019-06-27 18:52:17 [ INFO] - org.apache.hadoop.yarn.util.resource.ResourceUtils -ResourceUtils.java(418) -Unable to find 'resource-types.xml'.
+2019-06-27 18:52:17 [ INFO] - org.apache.hadoop.yarn.client.api.impl.YarnClientImpl -YarnClientImpl.java(324) -Submitted application application_1561632549676_0004
+2019-06-27 18:52:17 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1574) -The url to track the job: http://node-04:8088/proxy/application_1561632549676_0004/
+2019-06-27 18:52:17 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1619) -Running job: job_1561632549676_0004
+2019-06-27 18:52:23 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1640) -Job job_1561632549676_0004 running in uber mode : false
+2019-06-27 18:52:23 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 0% reduce 0%
+2019-06-27 18:52:28 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 0%
+2019-06-27 18:52:33 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 100%
+2019-06-27 18:52:34 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1658) -Job job_1561632549676_0004 completed successfully
+2019-06-27 18:52:35 [ WARN] - org.apache.hadoop.mapreduce.counters.FileSystemCounterGroup -FileSystemCounterGroup.java(204) -HDFS_BYTES_READ_EC is not a recognized counter.
+2019-06-27 18:52:35 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1665) -Counters: 53
+	File System Counters
+		FILE: Number of bytes read=44553
+		FILE: Number of bytes written=537561
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=22211
+		HDFS: Number of bytes written=12470
+		HDFS: Number of read operations=8
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2811
+		Total time spent by all reduces in occupied slots (ms)=2956
+		Total time spent by all map tasks (ms)=2811
+		Total time spent by all reduce tasks (ms)=2956
+		Total vcore-milliseconds taken by all map tasks=2811
+		Total vcore-milliseconds taken by all reduce tasks=2956
+		Total megabyte-milliseconds taken by all map tasks=2878464
+		Total megabyte-milliseconds taken by all reduce tasks=3026944
+	Map-Reduce Framework
+		Map input records=615
+		Map output records=3737
+		Map output bytes=37073
+		Map output materialized bytes=44553
+		Input split bytes=86
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=880
+		Reduce shuffle bytes=44553
+		Reduce input records=3737
+		Reduce output records=880
+		Spilled Records=7474
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=152
+		CPU time spent (ms)=1350
+		Physical memory (bytes) snapshot=457113600
+		Virtual memory (bytes) snapshot=5612617728
+		Total committed heap usage (bytes)=384827392
+		Peak Map Physical memory (bytes)=269508608
+		Peak Map Virtual memory (bytes)=2803376128
+		Peak Reduce Physical memory (bytes)=187604992
+		Peak Reduce Virtual memory (bytes)=2809241600
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=22125
+	File Output Format Counters 
+		Bytes Written=12470
+2019-06-27 18:53:51 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-27 18:53:52 [ INFO] - org.apache.hadoop.yarn.client.ConfiguredRMFailoverProxyProvider -ConfiguredRMFailoverProxyProvider.java(100) -Failing over to rm2
+2019-06-27 18:53:52 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(147) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-06-27 18:53:52 [ INFO] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(883) -Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/bruce/.staging/job_1561632549676_0005
+2019-06-27 18:53:52 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(480) -No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-06-27 18:53:52 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(292) -Total input files to process : 1
+2019-06-27 18:53:53 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(202) -number of splits:1
+2019-06-27 18:53:53 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(298) -Submitting tokens for job: job_1561632549676_0005
+2019-06-27 18:53:53 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(299) -Executing with tokens: []
+2019-06-27 18:53:53 [ INFO] - org.apache.hadoop.mapred.YARNRunner -YARNRunner.java(426) -Job jar is not present. Not adding any jar to the list of resources.
+2019-06-27 18:53:53 [ INFO] - org.apache.hadoop.conf.Configuration -Configuration.java(2752) -resource-types.xml not found
+2019-06-27 18:53:53 [ INFO] - org.apache.hadoop.yarn.util.resource.ResourceUtils -ResourceUtils.java(418) -Unable to find 'resource-types.xml'.
+2019-06-27 18:53:53 [ INFO] - org.apache.hadoop.yarn.client.api.impl.YarnClientImpl -YarnClientImpl.java(324) -Submitted application application_1561632549676_0005
+2019-06-27 18:53:53 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1574) -The url to track the job: http://node-04:8088/proxy/application_1561632549676_0005/
+2019-06-27 18:53:53 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1619) -Running job: job_1561632549676_0005
+2019-06-27 18:53:58 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1640) -Job job_1561632549676_0005 running in uber mode : false
+2019-06-27 18:53:58 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 0% reduce 0%
+2019-06-27 18:54:02 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561632549676_0005_m_000000_0, Status : FAILED
+2019-06-27 18:54:06 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561632549676_0005_m_000000_1, Status : FAILED
+2019-06-27 18:54:09 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561632549676_0005_m_000000_2, Status : FAILED
+2019-06-27 18:54:14 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 100%
+2019-06-27 18:54:14 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1660) -Job job_1561632549676_0005 failed with state FAILED due to: Task failed task_1561632549676_0005_m_000000
+Job failed as tasks failed. failedMaps:1 failedReduces:0 killedMaps:0 killedReduces: 0
+
+2019-06-27 18:54:14 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1665) -Counters: 10
+	Job Counters 
+		Failed map tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Other local map tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=8748
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=8748
+		Total vcore-milliseconds taken by all map tasks=8748
+		Total megabyte-milliseconds taken by all map tasks=8957952
+2019-06-27 18:54:38 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-27 18:54:39 [ INFO] - org.apache.commons.beanutils.FluentPropertyBeanIntrospector -FluentPropertyBeanIntrospector.java(147) -Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2019-06-27 18:54:39 [ WARN] - org.apache.hadoop.metrics2.impl.MetricsConfig -MetricsConfig.java(134) -Cannot locate configuration: tried hadoop-metrics2-jobtracker.properties,hadoop-metrics2.properties
+2019-06-27 18:54:39 [ INFO] - org.apache.hadoop.metrics2.impl.MetricsSystemImpl -MetricsSystemImpl.java(374) -Scheduled Metric snapshot period at 10 second(s).
+2019-06-27 18:54:39 [ INFO] - org.apache.hadoop.metrics2.impl.MetricsSystemImpl -MetricsSystemImpl.java(191) -JobTracker metrics system started
+2019-06-27 18:54:40 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(147) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-06-27 18:54:40 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(480) -No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-06-27 18:54:40 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(292) -Total input files to process : 1
+2019-06-27 18:54:40 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(202) -number of splits:1
+2019-06-27 18:54:40 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(298) -Submitting tokens for job: job_local898890842_0001
+2019-06-27 18:54:40 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(299) -Executing with tokens: []
+2019-06-27 18:54:40 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1574) -The url to track the job: http://localhost:8080/
+2019-06-27 18:54:40 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1619) -Running job: job_local898890842_0001
+2019-06-27 18:54:40 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(501) -OutputCommitter set in config null
+2019-06-27 18:54:40 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(141) -File Output Committer Algorithm version is 2
+2019-06-27 18:54:40 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(156) -FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2019-06-27 18:54:40 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(519) -OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2019-06-27 18:54:40 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(478) -Waiting for map tasks
+2019-06-27 18:54:40 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(252) -Starting task: attempt_local898890842_0001_m_000000_0
+2019-06-27 18:54:40 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(141) -File Output Committer Algorithm version is 2
+2019-06-27 18:54:40 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(156) -FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2019-06-27 18:54:40 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(625) - Using ResourceCalculatorProcessTree : [ ]
+2019-06-27 18:54:40 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(768) -Processing split: hdfs://ns1/NOTICE.txt:0+22125
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1219) -(EQUATOR) 0 kvi 26214396(104857584)
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1012) -mapreduce.task.io.sort.mb: 100
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1013) -soft limit at 83886080
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1014) -bufstart = 0; bufvoid = 104857600
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1015) -kvstart = 26214396; length = 6553600
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(409) -Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(628) -
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1476) -Starting flush of map output
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1498) -Spilling map output
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1499) -bufstart = 0; bufend = 37073; bufvoid = 104857600
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1501) -kvstart = 26214396(104857584); kvend = 26199452(104797808); length = 14945/6553600
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1696) -Finished spill 0
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1640) -Job job_local898890842_0001 running in uber mode : false
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 0% reduce 0%
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1232) -Task:attempt_local898890842_0001_m_000000_0 is done. And is in the process of committing
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(628) -map
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1368) -Task 'attempt_local898890842_0001_m_000000_0' done.
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1264) -Final Counters for attempt_local898890842_0001_m_000000_0: Counters: 22
+	File System Counters
+		FILE: Number of bytes read=156
+		FILE: Number of bytes written=547589
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=22125
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=5
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=1
+	Map-Reduce Framework
+		Map input records=615
+		Map output records=3737
+		Map output bytes=37073
+		Map output materialized bytes=44553
+		Input split bytes=86
+		Combine input records=0
+		Spilled Records=3737
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=245891072
+	File Input Format Counters 
+		Bytes Read=22125
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(277) -Finishing task: attempt_local898890842_0001_m_000000_0
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(486) -map task executor complete.
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(478) -Waiting for reduce tasks
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(330) -Starting task: attempt_local898890842_0001_r_000000_0
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(141) -File Output Committer Algorithm version is 2
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(156) -FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(625) - Using ResourceCalculatorProcessTree : [ ]
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapred.ReduceTask -ReduceTask.java(363) -Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@d593b42
+2019-06-27 18:54:41 [ WARN] - org.apache.hadoop.metrics2.impl.MetricsSystemImpl -MetricsSystemImpl.java(151) -JobTracker metrics system already initialized!
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(208) -MergerManager: memoryLimit=492149152, maxSingleShuffleLimit=123037288, mergeThreshold=324818464, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2019-06-27 18:54:41 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.EventFetcher -EventFetcher.java(61) -attempt_local898890842_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher -LocalFetcher.java(145) -localfetcher#1 about to shuffle output of map attempt_local898890842_0001_m_000000_0 decomp: 44549 len: 44553 to MEMORY
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput -InMemoryMapOutput.java(94) -Read 44549 bytes from map-output for attempt_local898890842_0001_m_000000_0
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(323) -closeInMemoryFile -> map-output of size: 44549, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->44549
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.EventFetcher -EventFetcher.java(76) -EventFetcher is interrupted.. Returning
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(628) -1 / 1 copied.
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(695) -finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapred.Merger -Merger.java(606) -Merging 1 sorted segments
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapred.Merger -Merger.java(705) -Down to the last merge-pass, with 1 segments left of total size: 44546 bytes
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(762) -Merged 1 segments, 44549 bytes to disk to satisfy reduce memory limit
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(792) -Merging 1 files, 44553 bytes from disk
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(807) -Merging 0 segments, 0 bytes from memory into reduce
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapred.Merger -Merger.java(606) -Merging 1 sorted segments
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapred.Merger -Merger.java(705) -Down to the last merge-pass, with 1 segments left of total size: 44546 bytes
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(628) -1 / 1 copied.
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.conf.Configuration.deprecation -Configuration.java(1394) -mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1232) -Task:attempt_local898890842_0001_r_000000_0 is done. And is in the process of committing
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(628) -1 / 1 copied.
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1409) -Task attempt_local898890842_0001_r_000000_0 is allowed to commit now
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(606) -Saved output of task 'attempt_local898890842_0001_r_000000_0' to hdfs://ns1/ww35
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(628) -reduce > reduce
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1368) -Task 'attempt_local898890842_0001_r_000000_0' done.
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1264) -Final Counters for attempt_local898890842_0001_r_000000_0: Counters: 29
+	File System Counters
+		FILE: Number of bytes read=89294
+		FILE: Number of bytes written=592142
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=22125
+		HDFS: Number of bytes written=12470
+		HDFS: Number of read operations=10
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=3
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=880
+		Reduce shuffle bytes=44553
+		Reduce input records=3737
+		Reduce output records=880
+		Spilled Records=3737
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=24
+		Total committed heap usage (bytes)=246415360
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=12470
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(353) -Finishing task: attempt_local898890842_0001_r_000000_0
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(486) -reduce task executor complete.
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 100%
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1658) -Job job_local898890842_0001 completed successfully
+2019-06-27 18:54:42 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1665) -Counters: 35
+	File System Counters
+		FILE: Number of bytes read=89450
+		FILE: Number of bytes written=1139731
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=44250
+		HDFS: Number of bytes written=12470
+		HDFS: Number of read operations=15
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=4
+	Map-Reduce Framework
+		Map input records=615
+		Map output records=3737
+		Map output bytes=37073
+		Map output materialized bytes=44553
+		Input split bytes=86
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=880
+		Reduce shuffle bytes=44553
+		Reduce input records=3737
+		Reduce output records=880
+		Spilled Records=7474
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=24
+		Total committed heap usage (bytes)=492306432
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=22125
+	File Output Format Counters 
+		Bytes Written=12470
+2019-06-27 19:39:44 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-27 19:39:46 [ INFO] - org.apache.hadoop.yarn.client.ConfiguredRMFailoverProxyProvider -ConfiguredRMFailoverProxyProvider.java(100) -Failing over to rm2
+2019-06-27 19:39:47 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(147) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-06-27 19:39:47 [ INFO] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(883) -Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/bruce/.staging/job_1561632549676_0006
+2019-06-27 19:39:47 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(480) -No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-06-27 19:39:47 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(292) -Total input files to process : 1
+2019-06-27 19:39:47 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(202) -number of splits:1
+2019-06-27 19:39:47 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(298) -Submitting tokens for job: job_1561632549676_0006
+2019-06-27 19:39:47 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(299) -Executing with tokens: []
+2019-06-27 19:39:47 [ INFO] - org.apache.hadoop.mapred.YARNRunner -YARNRunner.java(426) -Job jar is not present. Not adding any jar to the list of resources.
+2019-06-27 19:39:48 [ INFO] - org.apache.hadoop.conf.Configuration -Configuration.java(2752) -resource-types.xml not found
+2019-06-27 19:39:48 [ INFO] - org.apache.hadoop.yarn.util.resource.ResourceUtils -ResourceUtils.java(418) -Unable to find 'resource-types.xml'.
+2019-06-27 19:39:48 [ INFO] - org.apache.hadoop.yarn.client.api.impl.YarnClientImpl -YarnClientImpl.java(324) -Submitted application application_1561632549676_0006
+2019-06-27 19:39:48 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1574) -The url to track the job: http://node-04:8088/proxy/application_1561632549676_0006/
+2019-06-27 19:39:48 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1619) -Running job: job_1561632549676_0006
+2019-06-27 19:39:55 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1640) -Job job_1561632549676_0006 running in uber mode : false
+2019-06-27 19:39:55 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 0% reduce 0%
+2019-06-27 19:39:59 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561632549676_0006_m_000000_0, Status : FAILED
+2019-06-27 19:40:02 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561632549676_0006_m_000000_1, Status : FAILED
+2019-06-27 19:40:06 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561632549676_0006_m_000000_2, Status : FAILED
+2019-06-27 19:40:10 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 100%
+2019-06-27 19:40:10 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1660) -Job job_1561632549676_0006 failed with state FAILED due to: Task failed task_1561632549676_0006_m_000000
+Job failed as tasks failed. failedMaps:1 failedReduces:0 killedMaps:0 killedReduces: 0
+
+2019-06-27 19:40:10 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1665) -Counters: 10
+	Job Counters 
+		Failed map tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Other local map tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=8888
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=8888
+		Total vcore-milliseconds taken by all map tasks=8888
+		Total megabyte-milliseconds taken by all map tasks=9101312
+2019-06-27 19:40:28 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-27 19:41:16 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-27 19:41:17 [ INFO] - org.apache.hadoop.yarn.client.ConfiguredRMFailoverProxyProvider -ConfiguredRMFailoverProxyProvider.java(100) -Failing over to rm2
+2019-06-27 19:41:18 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(147) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-06-27 19:41:18 [ INFO] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(883) -Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/bruce/.staging/job_1561632549676_0007
+2019-06-27 19:41:18 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(480) -No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-06-27 19:41:18 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(292) -Total input files to process : 1
+2019-06-27 19:41:18 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(202) -number of splits:1
+2019-06-27 19:41:18 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(298) -Submitting tokens for job: job_1561632549676_0007
+2019-06-27 19:41:18 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(299) -Executing with tokens: []
+2019-06-27 19:41:18 [ INFO] - org.apache.hadoop.mapred.YARNRunner -YARNRunner.java(426) -Job jar is not present. Not adding any jar to the list of resources.
+2019-06-27 19:41:18 [ INFO] - org.apache.hadoop.conf.Configuration -Configuration.java(2752) -resource-types.xml not found
+2019-06-27 19:41:18 [ INFO] - org.apache.hadoop.yarn.util.resource.ResourceUtils -ResourceUtils.java(418) -Unable to find 'resource-types.xml'.
+2019-06-27 19:41:18 [ INFO] - org.apache.hadoop.yarn.client.api.impl.YarnClientImpl -YarnClientImpl.java(324) -Submitted application application_1561632549676_0007
+2019-06-27 19:41:18 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1574) -The url to track the job: http://node-04:8088/proxy/application_1561632549676_0007/
+2019-06-27 19:41:18 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1619) -Running job: job_1561632549676_0007
+2019-06-27 19:41:24 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1640) -Job job_1561632549676_0007 running in uber mode : false
+2019-06-27 19:41:24 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 0% reduce 0%
+2019-06-27 19:41:28 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561632549676_0007_m_000000_0, Status : FAILED
+2019-06-27 19:41:31 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561632549676_0007_m_000000_1, Status : FAILED
+2019-06-27 19:41:34 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561632549676_0007_m_000000_2, Status : FAILED
+2019-06-27 19:41:39 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 100%
+2019-06-27 19:41:39 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1660) -Job job_1561632549676_0007 failed with state FAILED due to: Task failed task_1561632549676_0007_m_000000
+Job failed as tasks failed. failedMaps:1 failedReduces:0 killedMaps:0 killedReduces: 0
+
+2019-06-27 19:41:39 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1665) -Counters: 10
+	Job Counters 
+		Failed map tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Other local map tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=8127
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=8127
+		Total vcore-milliseconds taken by all map tasks=8127
+		Total megabyte-milliseconds taken by all map tasks=8322048
+2019-06-27 19:42:34 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-27 19:42:36 [ INFO] - org.apache.hadoop.yarn.client.ConfiguredRMFailoverProxyProvider -ConfiguredRMFailoverProxyProvider.java(100) -Failing over to rm2
+2019-06-27 19:42:36 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(147) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-06-27 19:42:36 [ INFO] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(883) -Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/bruce/.staging/job_1561632549676_0008
+2019-06-27 19:42:36 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(292) -Total input files to process : 1
+2019-06-27 19:42:37 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(202) -number of splits:1
+2019-06-27 19:42:37 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(298) -Submitting tokens for job: job_1561632549676_0008
+2019-06-27 19:42:37 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(299) -Executing with tokens: []
+2019-06-27 19:42:37 [ INFO] - org.apache.hadoop.conf.Configuration -Configuration.java(2752) -resource-types.xml not found
+2019-06-27 19:42:37 [ INFO] - org.apache.hadoop.yarn.util.resource.ResourceUtils -ResourceUtils.java(418) -Unable to find 'resource-types.xml'.
+2019-06-27 19:42:37 [ INFO] - org.apache.hadoop.yarn.client.api.impl.YarnClientImpl -YarnClientImpl.java(324) -Submitted application application_1561632549676_0008
+2019-06-27 19:42:37 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1574) -The url to track the job: http://node-04:8088/proxy/application_1561632549676_0008/
+2019-06-27 19:42:37 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1619) -Running job: job_1561632549676_0008
+2019-06-27 19:42:44 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1640) -Job job_1561632549676_0008 running in uber mode : false
+2019-06-27 19:42:44 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 0% reduce 0%
+2019-06-27 19:42:52 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 0%
+2019-06-27 19:42:58 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 100%
+2019-06-27 19:42:59 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1658) -Job job_1561632549676_0008 completed successfully
+2019-06-27 19:42:59 [ WARN] - org.apache.hadoop.mapreduce.counters.FileSystemCounterGroup -FileSystemCounterGroup.java(204) -HDFS_BYTES_READ_EC is not a recognized counter.
+2019-06-27 19:42:59 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1665) -Counters: 53
+	File System Counters
+		FILE: Number of bytes read=44553
+		FILE: Number of bytes written=537575
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=22211
+		HDFS: Number of bytes written=12470
+		HDFS: Number of read operations=8
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=4322
+		Total time spent by all reduces in occupied slots (ms)=4082
+		Total time spent by all map tasks (ms)=4322
+		Total time spent by all reduce tasks (ms)=4082
+		Total vcore-milliseconds taken by all map tasks=4322
+		Total vcore-milliseconds taken by all reduce tasks=4082
+		Total megabyte-milliseconds taken by all map tasks=4425728
+		Total megabyte-milliseconds taken by all reduce tasks=4179968
+	Map-Reduce Framework
+		Map input records=615
+		Map output records=3737
+		Map output bytes=37073
+		Map output materialized bytes=44553
+		Input split bytes=86
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=880
+		Reduce shuffle bytes=44553
+		Reduce input records=3737
+		Reduce output records=880
+		Spilled Records=7474
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=245
+		CPU time spent (ms)=1700
+		Physical memory (bytes) snapshot=424349696
+		Virtual memory (bytes) snapshot=5606350848
+		Total committed heap usage (bytes)=340787200
+		Peak Map Physical memory (bytes)=253456384
+		Peak Map Virtual memory (bytes)=2798018560
+		Peak Reduce Physical memory (bytes)=170893312
+		Peak Reduce Virtual memory (bytes)=2808332288
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=22125
+	File Output Format Counters 
+		Bytes Written=12470
+2019-06-27 22:09:13 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-27 22:09:14 [ INFO] - org.apache.hadoop.yarn.client.ConfiguredRMFailoverProxyProvider -ConfiguredRMFailoverProxyProvider.java(100) -Failing over to rm2
+2019-06-27 22:09:14 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(147) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-06-27 22:09:14 [ INFO] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(883) -Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/bruce/.staging/job_1561632549676_0012
+2019-06-27 22:09:15 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(292) -Total input files to process : 1
+2019-06-27 22:09:15 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(202) -number of splits:1
+2019-06-27 22:09:15 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(298) -Submitting tokens for job: job_1561632549676_0012
+2019-06-27 22:09:15 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(299) -Executing with tokens: []
+2019-06-27 22:09:15 [ INFO] - org.apache.hadoop.conf.Configuration -Configuration.java(2752) -resource-types.xml not found
+2019-06-27 22:09:15 [ INFO] - org.apache.hadoop.yarn.util.resource.ResourceUtils -ResourceUtils.java(418) -Unable to find 'resource-types.xml'.
+2019-06-27 22:09:15 [ INFO] - org.apache.hadoop.yarn.client.api.impl.YarnClientImpl -YarnClientImpl.java(324) -Submitted application application_1561632549676_0012
+2019-06-27 22:09:15 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1574) -The url to track the job: http://node-04:8088/proxy/application_1561632549676_0012/
+2019-06-27 22:09:15 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1619) -Running job: job_1561632549676_0012
+2019-06-27 22:09:23 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1640) -Job job_1561632549676_0012 running in uber mode : false
+2019-06-27 22:09:23 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 0% reduce 0%
+2019-06-27 22:09:31 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 0%
+2019-06-27 22:09:37 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 100%
+2019-06-27 22:09:38 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1658) -Job job_1561632549676_0012 completed successfully
+2019-06-27 22:09:38 [ WARN] - org.apache.hadoop.mapreduce.counters.FileSystemCounterGroup -FileSystemCounterGroup.java(204) -HDFS_BYTES_READ_EC is not a recognized counter.
+2019-06-27 22:09:38 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1665) -Counters: 53
+	File System Counters
+		FILE: Number of bytes read=167
+		FILE: Number of bytes written=448813
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=162
+		HDFS: Number of bytes written=28
+		HDFS: Number of read operations=8
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=4999
+		Total time spent by all reduces in occupied slots (ms)=3713
+		Total time spent by all map tasks (ms)=4999
+		Total time spent by all reduce tasks (ms)=3713
+		Total vcore-milliseconds taken by all map tasks=4999
+		Total vcore-milliseconds taken by all reduce tasks=3713
+		Total megabyte-milliseconds taken by all map tasks=5118976
+		Total megabyte-milliseconds taken by all reduce tasks=3802112
+	Map-Reduce Framework
+		Map input records=6
+		Map output records=15
+		Map output bytes=131
+		Map output materialized bytes=167
+		Input split bytes=87
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=4
+		Reduce shuffle bytes=167
+		Reduce input records=15
+		Reduce output records=4
+		Spilled Records=30
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=1763
+		CPU time spent (ms)=3960
+		Physical memory (bytes) snapshot=603525120
+		Virtual memory (bytes) snapshot=5612048384
+		Total committed heap usage (bytes)=502792192
+		Peak Map Physical memory (bytes)=434692096
+		Peak Map Virtual memory (bytes)=2803048448
+		Peak Reduce Physical memory (bytes)=170065920
+		Peak Reduce Virtual memory (bytes)=2808999936
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=75
+	File Output Format Counters 
+		Bytes Written=28
+2019-06-27 22:16:06 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-27 22:16:07 [ INFO] - org.apache.hadoop.yarn.client.ConfiguredRMFailoverProxyProvider -ConfiguredRMFailoverProxyProvider.java(100) -Failing over to rm2
+2019-06-27 22:16:07 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(147) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-06-27 22:16:07 [ INFO] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(883) -Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/bruce/.staging/job_1561632549676_0013
+2019-06-27 22:16:08 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(292) -Total input files to process : 1
+2019-06-27 22:16:08 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(202) -number of splits:1
+2019-06-27 22:16:08 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(298) -Submitting tokens for job: job_1561632549676_0013
+2019-06-27 22:16:08 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(299) -Executing with tokens: []
+2019-06-27 22:16:08 [ INFO] - org.apache.hadoop.conf.Configuration -Configuration.java(2752) -resource-types.xml not found
+2019-06-27 22:16:08 [ INFO] - org.apache.hadoop.yarn.util.resource.ResourceUtils -ResourceUtils.java(418) -Unable to find 'resource-types.xml'.
+2019-06-27 22:16:08 [ INFO] - org.apache.hadoop.yarn.client.api.impl.YarnClientImpl -YarnClientImpl.java(324) -Submitted application application_1561632549676_0013
+2019-06-27 22:16:08 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1574) -The url to track the job: http://node-04:8088/proxy/application_1561632549676_0013/
+2019-06-27 22:16:08 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1619) -Running job: job_1561632549676_0013
+2019-06-27 22:16:16 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1640) -Job job_1561632549676_0013 running in uber mode : false
+2019-06-27 22:16:16 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 0% reduce 0%
+2019-06-27 22:16:23 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 0%
+2019-06-27 22:16:32 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 50%
+2019-06-27 22:16:33 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 100%
+2019-06-27 22:16:34 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1658) -Job job_1561632549676_0013 completed successfully
+2019-06-27 22:16:34 [ WARN] - org.apache.hadoop.mapreduce.counters.FileSystemCounterGroup -FileSystemCounterGroup.java(204) -HDFS_BYTES_READ_EC is not a recognized counter.
+2019-06-27 22:16:34 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1665) -Counters: 53
+	File System Counters
+		FILE: Number of bytes read=185
+		FILE: Number of bytes written=1122577
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=162
+		HDFS: Number of bytes written=28
+		HDFS: Number of read operations=23
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=8
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=4
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=5188
+		Total time spent by all reduces in occupied slots (ms)=25630
+		Total time spent by all map tasks (ms)=5188
+		Total time spent by all reduce tasks (ms)=25630
+		Total vcore-milliseconds taken by all map tasks=5188
+		Total vcore-milliseconds taken by all reduce tasks=25630
+		Total megabyte-milliseconds taken by all map tasks=5312512
+		Total megabyte-milliseconds taken by all reduce tasks=26245120
+	Map-Reduce Framework
+		Map input records=6
+		Map output records=15
+		Map output bytes=131
+		Map output materialized bytes=185
+		Input split bytes=87
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=4
+		Reduce shuffle bytes=185
+		Reduce input records=15
+		Reduce output records=4
+		Spilled Records=30
+		Shuffled Maps =4
+		Failed Shuffles=0
+		Merged Map outputs=4
+		GC time elapsed (ms)=905
+		CPU time spent (ms)=8260
+		Physical memory (bytes) snapshot=950173696
+		Virtual memory (bytes) snapshot=14027784192
+		Total committed heap usage (bytes)=741867520
+		Peak Map Physical memory (bytes)=275828736
+		Peak Map Virtual memory (bytes)=2797740032
+		Peak Reduce Physical memory (bytes)=169545728
+		Peak Reduce Virtual memory (bytes)=2808090624
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=75
+	File Output Format Counters 
+		Bytes Written=28
+2019-06-28 07:33:52 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-28 07:33:56 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(147) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-06-28 07:33:56 [ INFO] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(883) -Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/bruce/.staging/job_1561673336744_0001
+2019-06-28 07:33:56 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(480) -No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-06-28 07:33:56 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(292) -Total input files to process : 1
+2019-06-28 07:33:57 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(202) -number of splits:1
+2019-06-28 07:33:58 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(298) -Submitting tokens for job: job_1561673336744_0001
+2019-06-28 07:33:58 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(299) -Executing with tokens: []
+2019-06-28 07:33:58 [ INFO] - org.apache.hadoop.mapred.YARNRunner -YARNRunner.java(426) -Job jar is not present. Not adding any jar to the list of resources.
+2019-06-28 07:33:58 [ INFO] - org.apache.hadoop.conf.Configuration -Configuration.java(2752) -resource-types.xml not found
+2019-06-28 07:33:58 [ INFO] - org.apache.hadoop.yarn.util.resource.ResourceUtils -ResourceUtils.java(418) -Unable to find 'resource-types.xml'.
+2019-06-28 07:33:59 [ INFO] - org.apache.hadoop.yarn.client.api.impl.YarnClientImpl -YarnClientImpl.java(324) -Submitted application application_1561673336744_0001
+2019-06-28 07:33:59 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1574) -The url to track the job: http://node-03:8088/proxy/application_1561673336744_0001/
+2019-06-28 07:33:59 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1619) -Running job: job_1561673336744_0001
+2019-06-28 07:34:14 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1640) -Job job_1561673336744_0001 running in uber mode : false
+2019-06-28 07:34:14 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 0% reduce 0%
+2019-06-28 07:34:22 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561673336744_0001_m_000000_0, Status : FAILED
+2019-06-28 07:34:27 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561673336744_0001_m_000000_1, Status : FAILED
+2019-06-28 07:34:37 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561673336744_0001_m_000000_2, Status : FAILED
+2019-06-28 07:34:43 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 100%
+2019-06-28 07:34:43 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1660) -Job job_1561673336744_0001 failed with state FAILED due to: Task failed task_1561673336744_0001_m_000000
+Job failed as tasks failed. failedMaps:1 failedReduces:0 killedMaps:0 killedReduces: 0
+
+2019-06-28 07:34:44 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1665) -Counters: 10
+	Job Counters 
+		Failed map tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Other local map tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=20620
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=20620
+		Total vcore-milliseconds taken by all map tasks=20620
+		Total megabyte-milliseconds taken by all map tasks=21114880
+2019-06-28 07:47:20 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-28 07:47:24 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(147) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-06-28 07:47:24 [ INFO] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(883) -Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/bruce/.staging/job_1561673336744_0002
+2019-06-28 07:47:25 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(292) -Total input files to process : 1
+2019-06-28 07:47:25 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(202) -number of splits:1
+2019-06-28 07:47:25 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(298) -Submitting tokens for job: job_1561673336744_0002
+2019-06-28 07:47:25 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(299) -Executing with tokens: []
+2019-06-28 07:47:26 [ INFO] - org.apache.hadoop.conf.Configuration -Configuration.java(2752) -resource-types.xml not found
+2019-06-28 07:47:26 [ INFO] - org.apache.hadoop.yarn.util.resource.ResourceUtils -ResourceUtils.java(418) -Unable to find 'resource-types.xml'.
+2019-06-28 07:47:26 [ INFO] - org.apache.hadoop.yarn.client.api.impl.YarnClientImpl -YarnClientImpl.java(324) -Submitted application application_1561673336744_0002
+2019-06-28 07:47:26 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1574) -The url to track the job: http://node-03:8088/proxy/application_1561673336744_0002/
+2019-06-28 07:47:26 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1619) -Running job: job_1561673336744_0002
+2019-06-28 07:47:37 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1640) -Job job_1561673336744_0002 running in uber mode : false
+2019-06-28 07:47:37 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 0% reduce 0%
+2019-06-28 07:47:46 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561673336744_0002_m_000000_0, Status : FAILED
+2019-06-28 07:47:55 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561673336744_0002_m_000000_1, Status : FAILED
+2019-06-28 07:48:01 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561673336744_0002_m_000000_2, Status : FAILED
+2019-06-28 07:48:09 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 100%
+2019-06-28 07:48:09 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1660) -Job job_1561673336744_0002 failed with state FAILED due to: Task failed task_1561673336744_0002_m_000000
+Job failed as tasks failed. failedMaps:1 failedReduces:0 killedMaps:0 killedReduces: 0
+
+2019-06-28 07:48:09 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1665) -Counters: 10
+	Job Counters 
+		Failed map tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Other local map tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=24207
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=24207
+		Total vcore-milliseconds taken by all map tasks=24207
+		Total megabyte-milliseconds taken by all map tasks=24787968
+2019-06-28 07:50:50 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-28 07:50:54 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(147) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-06-28 07:50:54 [ INFO] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(883) -Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/bruce/.staging/job_1561673336744_0003
+2019-06-28 07:50:54 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(292) -Total input files to process : 1
+2019-06-28 07:50:55 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(202) -number of splits:1
+2019-06-28 07:50:55 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(298) -Submitting tokens for job: job_1561673336744_0003
+2019-06-28 07:50:55 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(299) -Executing with tokens: []
+2019-06-28 07:50:55 [ INFO] - org.apache.hadoop.conf.Configuration -Configuration.java(2752) -resource-types.xml not found
+2019-06-28 07:50:55 [ INFO] - org.apache.hadoop.yarn.util.resource.ResourceUtils -ResourceUtils.java(418) -Unable to find 'resource-types.xml'.
+2019-06-28 07:50:56 [ INFO] - org.apache.hadoop.yarn.client.api.impl.YarnClientImpl -YarnClientImpl.java(324) -Submitted application application_1561673336744_0003
+2019-06-28 07:50:56 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1574) -The url to track the job: http://node-03:8088/proxy/application_1561673336744_0003/
+2019-06-28 07:50:56 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1619) -Running job: job_1561673336744_0003
+2019-06-28 07:51:05 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1640) -Job job_1561673336744_0003 running in uber mode : false
+2019-06-28 07:51:05 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 0% reduce 0%
+2019-06-28 07:51:13 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561673336744_0003_m_000000_0, Status : FAILED
+2019-06-28 07:51:24 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561673336744_0003_m_000000_1, Status : FAILED
+2019-06-28 07:51:31 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561673336744_0003_m_000000_2, Status : FAILED
+2019-06-28 07:53:16 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-28 07:53:20 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(147) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-06-28 07:53:20 [ INFO] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(883) -Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/bruce/.staging/job_1561673336744_0004
+2019-06-28 07:53:21 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(292) -Total input files to process : 1
+2019-06-28 07:53:21 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(202) -number of splits:1
+2019-06-28 07:53:22 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(298) -Submitting tokens for job: job_1561673336744_0004
+2019-06-28 07:53:22 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(299) -Executing with tokens: []
+2019-06-28 07:53:22 [ INFO] - org.apache.hadoop.conf.Configuration -Configuration.java(2752) -resource-types.xml not found
+2019-06-28 07:53:22 [ INFO] - org.apache.hadoop.yarn.util.resource.ResourceUtils -ResourceUtils.java(418) -Unable to find 'resource-types.xml'.
+2019-06-28 07:53:22 [ INFO] - org.apache.hadoop.yarn.client.api.impl.YarnClientImpl -YarnClientImpl.java(324) -Submitted application application_1561673336744_0004
+2019-06-28 07:53:22 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1574) -The url to track the job: http://node-03:8088/proxy/application_1561673336744_0004/
+2019-06-28 07:53:22 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1619) -Running job: job_1561673336744_0004
+2019-06-28 07:53:30 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1640) -Job job_1561673336744_0004 running in uber mode : false
+2019-06-28 07:53:30 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 0% reduce 0%
+2019-06-28 07:53:37 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561673336744_0004_m_000000_0, Status : FAILED
+2019-06-28 07:53:42 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561673336744_0004_m_000000_1, Status : FAILED
+2019-06-28 07:53:47 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1686) -Task Id : attempt_1561673336744_0004_m_000000_2, Status : FAILED
+2019-06-28 07:53:53 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 100%
+2019-06-28 07:53:54 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1660) -Job job_1561673336744_0004 failed with state FAILED due to: Task failed task_1561673336744_0004_m_000000
+Job failed as tasks failed. failedMaps:1 failedReduces:0 killedMaps:0 killedReduces: 0
+
+2019-06-28 07:53:55 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1665) -Counters: 10
+	Job Counters 
+		Failed map tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Other local map tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=15566
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=15566
+		Total vcore-milliseconds taken by all map tasks=15566
+		Total megabyte-milliseconds taken by all map tasks=15939584
+2019-06-28 07:56:12 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-28 07:56:15 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(147) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-06-28 07:56:15 [ INFO] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(883) -Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/bruce/.staging/job_1561673336744_0005
+2019-06-28 07:56:16 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(292) -Total input files to process : 1
+2019-06-28 07:56:17 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(202) -number of splits:1
+2019-06-28 07:56:17 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(298) -Submitting tokens for job: job_1561673336744_0005
+2019-06-28 07:56:17 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(299) -Executing with tokens: []
+2019-06-28 07:56:17 [ INFO] - org.apache.hadoop.conf.Configuration -Configuration.java(2752) -resource-types.xml not found
+2019-06-28 07:56:17 [ INFO] - org.apache.hadoop.yarn.util.resource.ResourceUtils -ResourceUtils.java(418) -Unable to find 'resource-types.xml'.
+2019-06-28 07:56:17 [ INFO] - org.apache.hadoop.yarn.client.api.impl.YarnClientImpl -YarnClientImpl.java(324) -Submitted application application_1561673336744_0005
+2019-06-28 07:56:18 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1574) -The url to track the job: http://node-03:8088/proxy/application_1561673336744_0005/
+2019-06-28 07:56:18 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1619) -Running job: job_1561673336744_0005
+2019-06-28 07:56:30 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1640) -Job job_1561673336744_0005 running in uber mode : false
+2019-06-28 07:56:30 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 0% reduce 0%
+2019-06-28 07:56:38 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 0%
+2019-06-28 07:56:46 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 100%
+2019-06-28 07:56:47 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1658) -Job job_1561673336744_0005 completed successfully
+2019-06-28 07:56:47 [ WARN] - org.apache.hadoop.mapreduce.counters.FileSystemCounterGroup -FileSystemCounterGroup.java(204) -HDFS_BYTES_READ_EC is not a recognized counter.
+2019-06-28 07:56:47 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1665) -Counters: 53
+	File System Counters
+		FILE: Number of bytes read=109
+		FILE: Number of bytes written=449535
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=181
+		HDFS: Number of bytes written=113
+		HDFS: Number of read operations=8
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=5004
+		Total time spent by all reduces in occupied slots (ms)=4824
+		Total time spent by all map tasks (ms)=5004
+		Total time spent by all reduce tasks (ms)=4824
+		Total vcore-milliseconds taken by all map tasks=5004
+		Total vcore-milliseconds taken by all reduce tasks=4824
+		Total megabyte-milliseconds taken by all map tasks=5124096
+		Total megabyte-milliseconds taken by all reduce tasks=4939776
+	Map-Reduce Framework
+		Map input records=6
+		Map output records=6
+		Map output bytes=91
+		Map output materialized bytes=109
+		Input split bytes=86
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=6
+		Reduce shuffle bytes=109
+		Reduce input records=6
+		Reduce output records=6
+		Spilled Records=12
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=207
+		CPU time spent (ms)=2090
+		Physical memory (bytes) snapshot=438009856
+		Virtual memory (bytes) snapshot=5609455616
+		Total committed heap usage (bytes)=297271296
+		Peak Map Physical memory (bytes)=270827520
+		Peak Map Virtual memory (bytes)=2801582080
+		Peak Reduce Physical memory (bytes)=167182336
+		Peak Reduce Virtual memory (bytes)=2807873536
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=95
+	File Output Format Counters 
+		Bytes Written=113
+2019-06-28 07:59:28 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-28 07:59:31 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(147) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-06-28 07:59:31 [ INFO] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(883) -Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/bruce/.staging/job_1561673336744_0006
+2019-06-28 07:59:31 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(292) -Total input files to process : 1
+2019-06-28 07:59:32 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(202) -number of splits:1
+2019-06-28 07:59:32 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(298) -Submitting tokens for job: job_1561673336744_0006
+2019-06-28 07:59:32 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(299) -Executing with tokens: []
+2019-06-28 07:59:32 [ INFO] - org.apache.hadoop.conf.Configuration -Configuration.java(2752) -resource-types.xml not found
+2019-06-28 07:59:32 [ INFO] - org.apache.hadoop.yarn.util.resource.ResourceUtils -ResourceUtils.java(418) -Unable to find 'resource-types.xml'.
+2019-06-28 07:59:33 [ INFO] - org.apache.hadoop.yarn.client.api.impl.YarnClientImpl -YarnClientImpl.java(324) -Submitted application application_1561673336744_0006
+2019-06-28 07:59:33 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1574) -The url to track the job: http://node-03:8088/proxy/application_1561673336744_0006/
+2019-06-28 07:59:33 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1619) -Running job: job_1561673336744_0006
+2019-06-28 07:59:42 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1640) -Job job_1561673336744_0006 running in uber mode : false
+2019-06-28 07:59:42 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 0% reduce 0%
+2019-06-28 07:59:49 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 0%
+2019-06-28 07:59:57 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1647) - map 100% reduce 100%
+2019-06-28 07:59:57 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1658) -Job job_1561673336744_0006 completed successfully
+2019-06-28 07:59:57 [ WARN] - org.apache.hadoop.mapreduce.counters.FileSystemCounterGroup -FileSystemCounterGroup.java(204) -HDFS_BYTES_READ_EC is not a recognized counter.
+2019-06-28 07:59:57 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1665) -Counters: 53
+	File System Counters
+		FILE: Number of bytes read=126
+		FILE: Number of bytes written=449569
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=196
+		HDFS: Number of bytes written=131
+		HDFS: Number of read operations=8
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=4616
+		Total time spent by all reduces in occupied slots (ms)=5133
+		Total time spent by all map tasks (ms)=4616
+		Total time spent by all reduce tasks (ms)=5133
+		Total vcore-milliseconds taken by all map tasks=4616
+		Total vcore-milliseconds taken by all reduce tasks=5133
+		Total megabyte-milliseconds taken by all map tasks=4726784
+		Total megabyte-milliseconds taken by all reduce tasks=5256192
+	Map-Reduce Framework
+		Map input records=7
+		Map output records=7
+		Map output bytes=106
+		Map output materialized bytes=126
+		Input split bytes=86
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=7
+		Reduce shuffle bytes=126
+		Reduce input records=7
+		Reduce output records=7
+		Spilled Records=14
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=220
+		CPU time spent (ms)=2140
+		Physical memory (bytes) snapshot=442867712
+		Virtual memory (bytes) snapshot=5609816064
+		Total committed heap usage (bytes)=388497408
+		Peak Map Physical memory (bytes)=273305600
+		Peak Map Virtual memory (bytes)=2802188288
+		Peak Reduce Physical memory (bytes)=169562112
+		Peak Reduce Virtual memory (bytes)=2807627776
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=110
+	File Output Format Counters 
+		Bytes Written=131
+2019-07-03 14:44:34 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-03 14:55:15 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-03 14:57:52 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-03 14:58:49 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-03 15:03:37 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-03 17:25:21 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-03 17:28:47 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-03 17:45:07 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-04 13:52:30 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-04 22:57:57 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-04 22:58:51 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-05 10:44:56 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-05 10:49:48 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-05 10:49:49 [ INFO] - org.apache.hadoop.io.compress.CodecPool -CodecPool.java(153) -Got brand-new compressor [.deflate]
+2019-07-05 10:58:29 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-05 10:58:30 [ INFO] - org.apache.hadoop.io.compress.CodecPool -CodecPool.java(153) -Got brand-new compressor [.deflate]
+2019-07-05 10:59:44 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-05 10:59:46 [ INFO] - org.apache.hadoop.io.compress.CodecPool -CodecPool.java(184) -Got brand-new decompressor [.deflate]
+2019-07-05 10:59:46 [ INFO] - org.apache.hadoop.io.compress.CodecPool -CodecPool.java(184) -Got brand-new decompressor [.deflate]
+2019-07-05 10:59:46 [ INFO] - org.apache.hadoop.io.compress.CodecPool -CodecPool.java(184) -Got brand-new decompressor [.deflate]
+2019-07-05 10:59:46 [ INFO] - org.apache.hadoop.io.compress.CodecPool -CodecPool.java(184) -Got brand-new decompressor [.deflate]
+2019-07-07 15:09:11 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-07 15:16:14 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-07 15:16:56 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-10 22:31:24 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-10 22:54:07 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-10 22:54:08 [ INFO] - org.apache.hadoop.io.compress.CodecPool -CodecPool.java(153) -Got brand-new compressor [.deflate]
+2019-07-10 22:57:51 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(60) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-10 22:57:53 [ INFO] - org.apache.hadoop.io.compress.CodecPool -CodecPool.java(184) -Got brand-new decompressor [.deflate]
+2019-07-10 22:57:53 [ INFO] - org.apache.hadoop.io.compress.CodecPool -CodecPool.java(184) -Got brand-new decompressor [.deflate]
+2019-07-10 22:57:53 [ INFO] - org.apache.hadoop.io.compress.CodecPool -CodecPool.java(184) -Got brand-new decompressor [.deflate]
+2019-07-10 22:57:53 [ INFO] - org.apache.hadoop.io.compress.CodecPool -CodecPool.java(184) -Got brand-new decompressor [.deflate]
+2019-07-12 16:49:55 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(62) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-12 16:49:57 [ INFO] - org.apache.hadoop.yarn.client.RMProxy -RMProxy.java(98) -Connecting to ResourceManager at node-01/192.168.197.128:18040
+2019-07-12 16:49:57 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(64) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-07-12 16:49:57 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(171) -No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-07-12 16:49:57 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(283) -Total input paths to process : 1
+2019-07-12 16:49:58 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(198) -number of splits:1
+2019-07-12 16:49:58 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(287) -Submitting tokens for job: job_1562921333797_0001
+2019-07-12 16:49:58 [ INFO] - org.apache.hadoop.mapred.YARNRunner -YARNRunner.java(371) -Job jar is not present. Not adding any jar to the list of resources.
+2019-07-12 16:49:58 [ INFO] - org.apache.hadoop.yarn.client.api.impl.YarnClientImpl -YarnClientImpl.java(273) -Submitted application application_1562921333797_0001
+2019-07-12 16:49:58 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1294) -The url to track the job: http://node-01:18088/proxy/application_1562921333797_0001/
+2019-07-12 16:49:58 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1339) -Running job: job_1562921333797_0001
+2019-07-12 16:50:10 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1360) -Job job_1562921333797_0001 running in uber mode : false
+2019-07-12 16:50:10 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1367) - map 0% reduce 0%
+2019-07-12 16:50:17 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1367) - map 100% reduce 0%
+2019-07-12 16:50:17 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1406) -Task Id : attempt_1562921333797_0001_m_000000_0, Status : FAILED
+2019-07-12 16:50:18 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1367) - map 0% reduce 0%
+2019-07-12 16:50:22 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1406) -Task Id : attempt_1562921333797_0001_m_000000_1, Status : FAILED
+2019-07-12 16:50:26 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1367) - map 100% reduce 0%
+2019-07-12 16:50:26 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1406) -Task Id : attempt_1562921333797_0001_m_000000_2, Status : FAILED
+2019-07-12 16:50:27 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1367) - map 0% reduce 0%
+2019-07-12 16:50:32 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1367) - map 100% reduce 100%
+2019-07-12 16:50:32 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1380) -Job job_1562921333797_0001 failed with state FAILED due to: Task failed task_1562921333797_0001_m_000000
+Job failed as tasks failed. failedMaps:1 failedReduces:0
+
+2019-07-12 16:50:32 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1385) -Counters: 13
+	Job Counters 
+		Failed map tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Other local map tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=14346
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=14346
+		Total time spent by all reduce tasks (ms)=0
+		Total vcore-milliseconds taken by all map tasks=14346
+		Total vcore-milliseconds taken by all reduce tasks=0
+		Total megabyte-milliseconds taken by all map tasks=14690304
+		Total megabyte-milliseconds taken by all reduce tasks=0
+2019-07-12 16:50:57 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(62) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-12 16:50:58 [ INFO] - org.apache.hadoop.conf.Configuration.deprecation -Configuration.java(1173) -session.id is deprecated. Instead, use dfs.metrics.session-id
+2019-07-12 16:50:58 [ INFO] - org.apache.hadoop.metrics.jvm.JvmMetrics -JvmMetrics.java(76) -Initializing JVM Metrics with processName=JobTracker, sessionId=
+2019-07-12 16:51:24 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(62) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-12 16:51:25 [ INFO] - org.apache.hadoop.conf.Configuration.deprecation -Configuration.java(1173) -session.id is deprecated. Instead, use dfs.metrics.session-id
+2019-07-12 16:51:25 [ INFO] - org.apache.hadoop.metrics.jvm.JvmMetrics -JvmMetrics.java(76) -Initializing JVM Metrics with processName=JobTracker, sessionId=
+2019-07-12 16:51:25 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(64) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-07-12 16:51:25 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(171) -No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-07-12 16:51:25 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(283) -Total input paths to process : 1
+2019-07-12 16:51:25 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(198) -number of splits:1
+2019-07-12 16:51:25 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(287) -Submitting tokens for job: job_local27095048_0001
+2019-07-12 16:51:25 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1294) -The url to track the job: http://localhost:8080/
+2019-07-12 16:51:25 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1339) -Running job: job_local27095048_0001
+2019-07-12 16:51:25 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(471) -OutputCommitter set in config null
+2019-07-12 16:51:25 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(108) -File Output Committer Algorithm version is 1
+2019-07-12 16:51:25 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(489) -OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2019-07-12 16:51:25 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(448) -Waiting for map tasks
+2019-07-12 16:51:25 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(224) -Starting task: attempt_local27095048_0001_m_000000_0
+2019-07-12 16:51:25 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(108) -File Output Committer Algorithm version is 1
+2019-07-12 16:51:26 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(612) - Using ResourceCalculatorProcessTree : [ ]
+2019-07-12 16:51:26 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(756) -Processing split: hdfs://node-01:9000/salary.txt:0+110
+2019-07-12 16:51:26 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1360) -Job job_local27095048_0001 running in uber mode : false
+2019-07-12 16:51:26 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1367) - map 0% reduce 0%
+2019-07-12 16:51:26 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1205) -(EQUATOR) 0 kvi 26214396(104857584)
+2019-07-12 16:51:26 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(998) -mapreduce.task.io.sort.mb: 100
+2019-07-12 16:51:26 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(999) -soft limit at 83886080
+2019-07-12 16:51:26 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1000) -bufstart = 0; bufvoid = 104857600
+2019-07-12 16:51:26 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1001) -kvstart = 26214396; length = 6553600
+2019-07-12 16:51:26 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(403) -Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(591) -
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1460) -Starting flush of map output
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1482) -Spilling map output
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1483) -bufstart = 0; bufend = 131; bufvoid = 104857600
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1485) -kvstart = 26214396(104857584); kvend = 26214372(104857488); length = 25/6553600
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1667) -Finished spill 0
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1038) -Task:attempt_local27095048_0001_m_000000_0 is done. And is in the process of committing
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(591) -map
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1158) -Task 'attempt_local27095048_0001_m_000000_0' done.
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(249) -Finishing task: attempt_local27095048_0001_m_000000_0
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(456) -map task executor complete.
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(448) -Waiting for reduce tasks
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(302) -Starting task: attempt_local27095048_0001_r_000000_0
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(108) -File Output Committer Algorithm version is 1
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(612) - Using ResourceCalculatorProcessTree : [ ]
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.ReduceTask -ReduceTask.java(362) -Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@1cec89c1
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(197) -MergerManager: memoryLimit=492149152, maxSingleShuffleLimit=123037288, mergeThreshold=324818464, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.EventFetcher -EventFetcher.java(61) -attempt_local27095048_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher -LocalFetcher.java(144) -localfetcher#1 about to shuffle output of map attempt_local27095048_0001_m_000000_0 decomp: 147 len: 151 to MEMORY
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput -InMemoryMapOutput.java(100) -Read 147 bytes from map-output for attempt_local27095048_0001_m_000000_0
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(315) -closeInMemoryFile -> map-output of size: 147, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->147
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.EventFetcher -EventFetcher.java(76) -EventFetcher is interrupted.. Returning
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(591) -1 / 1 copied.
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(687) -finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.Merger -Merger.java(606) -Merging 1 sorted segments
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.Merger -Merger.java(705) -Down to the last merge-pass, with 1 segments left of total size: 130 bytes
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(754) -Merged 1 segments, 147 bytes to disk to satisfy reduce memory limit
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(784) -Merging 1 files, 151 bytes from disk
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(799) -Merging 0 segments, 0 bytes from memory into reduce
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.Merger -Merger.java(606) -Merging 1 sorted segments
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.Merger -Merger.java(705) -Down to the last merge-pass, with 1 segments left of total size: 130 bytes
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(591) -1 / 1 copied.
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.conf.Configuration.deprecation -Configuration.java(1173) -mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1038) -Task:attempt_local27095048_0001_r_000000_0 is done. And is in the process of committing
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(591) -1 / 1 copied.
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1199) -Task attempt_local27095048_0001_r_000000_0 is allowed to commit now
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(535) -Saved output of task 'attempt_local27095048_0001_r_000000_0' to hdfs://node-01:9000/wc0712/_temporary/0/task_local27095048_0001_r_000000
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(591) -reduce > reduce
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1158) -Task 'attempt_local27095048_0001_r_000000_0' done.
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(325) -Finishing task: attempt_local27095048_0001_r_000000_0
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(456) -reduce task executor complete.
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1367) - map 100% reduce 100%
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1378) -Job job_local27095048_0001 completed successfully
+2019-07-12 16:51:27 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1385) -Counters: 35
+	File System Counters
+		FILE: Number of bytes read=660
+		FILE: Number of bytes written=585447
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=220
+		HDFS: Number of bytes written=117
+		HDFS: Number of read operations=13
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=4
+	Map-Reduce Framework
+		Map input records=7
+		Map output records=7
+		Map output bytes=131
+		Map output materialized bytes=151
+		Input split bytes=95
+		Combine input records=7
+		Combine output records=7
+		Reduce input groups=7
+		Reduce shuffle bytes=151
+		Reduce input records=7
+		Reduce output records=7
+		Spilled Records=14
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=17
+		Total committed heap usage (bytes)=488636416
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=110
+	File Output Format Counters 
+		Bytes Written=117
+2019-07-12 22:04:47 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(62) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-12 22:04:49 [ INFO] - org.apache.hadoop.conf.Configuration.deprecation -Configuration.java(1173) -session.id is deprecated. Instead, use dfs.metrics.session-id
+2019-07-12 22:04:49 [ INFO] - org.apache.hadoop.metrics.jvm.JvmMetrics -JvmMetrics.java(76) -Initializing JVM Metrics with processName=JobTracker, sessionId=
+2019-07-12 22:05:46 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(62) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-12 22:05:47 [ INFO] - org.apache.hadoop.conf.Configuration.deprecation -Configuration.java(1173) -session.id is deprecated. Instead, use dfs.metrics.session-id
+2019-07-12 22:05:47 [ INFO] - org.apache.hadoop.metrics.jvm.JvmMetrics -JvmMetrics.java(76) -Initializing JVM Metrics with processName=JobTracker, sessionId=
+2019-07-12 22:08:43 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(62) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-12 22:08:44 [ INFO] - org.apache.hadoop.yarn.client.RMProxy -RMProxy.java(98) -Connecting to ResourceManager at node-01/192.168.197.128:18040
+2019-07-12 22:13:59 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(62) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-12 22:14:00 [ INFO] - org.apache.hadoop.conf.Configuration.deprecation -Configuration.java(1173) -session.id is deprecated. Instead, use dfs.metrics.session-id
+2019-07-12 22:14:00 [ INFO] - org.apache.hadoop.metrics.jvm.JvmMetrics -JvmMetrics.java(76) -Initializing JVM Metrics with processName=JobTracker, sessionId=
+2019-07-12 22:14:01 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(64) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-07-12 22:14:01 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(171) -No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-07-12 22:14:01 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(283) -Total input paths to process : 1
+2019-07-12 22:14:01 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(198) -number of splits:1
+2019-07-12 22:14:02 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(287) -Submitting tokens for job: job_local1908196141_0001
+2019-07-12 22:14:02 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1294) -The url to track the job: http://localhost:8080/
+2019-07-12 22:14:02 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1339) -Running job: job_local1908196141_0001
+2019-07-12 22:14:02 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(471) -OutputCommitter set in config null
+2019-07-12 22:14:02 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(108) -File Output Committer Algorithm version is 1
+2019-07-12 22:14:02 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(489) -OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2019-07-12 22:14:02 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(448) -Waiting for map tasks
+2019-07-12 22:14:02 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(224) -Starting task: attempt_local1908196141_0001_m_000000_0
+2019-07-12 22:14:02 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(108) -File Output Committer Algorithm version is 1
+2019-07-12 22:14:02 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(612) - Using ResourceCalculatorProcessTree : [ ]
+2019-07-12 22:14:02 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(756) -Processing split: hdfs://node-01:9000/salary.txt:0+110
+2019-07-12 22:14:02 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1205) -(EQUATOR) 0 kvi 26214396(104857584)
+2019-07-12 22:14:02 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(998) -mapreduce.task.io.sort.mb: 100
+2019-07-12 22:14:02 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(999) -soft limit at 83886080
+2019-07-12 22:14:02 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1000) -bufstart = 0; bufvoid = 104857600
+2019-07-12 22:14:02 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1001) -kvstart = 26214396; length = 6553600
+2019-07-12 22:14:02 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(403) -Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1360) -Job job_local1908196141_0001 running in uber mode : false
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1367) - map 0% reduce 0%
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(591) -
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1460) -Starting flush of map output
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1482) -Spilling map output
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1483) -bufstart = 0; bufend = 131; bufvoid = 104857600
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1485) -kvstart = 26214396(104857584); kvend = 26214372(104857488); length = 25/6553600
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1667) -Finished spill 0
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1038) -Task:attempt_local1908196141_0001_m_000000_0 is done. And is in the process of committing
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(591) -map
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1158) -Task 'attempt_local1908196141_0001_m_000000_0' done.
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(249) -Finishing task: attempt_local1908196141_0001_m_000000_0
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(456) -map task executor complete.
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(448) -Waiting for reduce tasks
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(302) -Starting task: attempt_local1908196141_0001_r_000000_0
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(108) -File Output Committer Algorithm version is 1
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(612) - Using ResourceCalculatorProcessTree : [ ]
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapred.ReduceTask -ReduceTask.java(362) -Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@4d7da3c4
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(197) -MergerManager: memoryLimit=492149152, maxSingleShuffleLimit=123037288, mergeThreshold=324818464, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2019-07-12 22:14:03 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.EventFetcher -EventFetcher.java(61) -attempt_local1908196141_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2019-07-12 22:14:04 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher -LocalFetcher.java(144) -localfetcher#1 about to shuffle output of map attempt_local1908196141_0001_m_000000_0 decomp: 147 len: 151 to MEMORY
+2019-07-12 22:14:04 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput -InMemoryMapOutput.java(100) -Read 147 bytes from map-output for attempt_local1908196141_0001_m_000000_0
+2019-07-12 22:14:04 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(315) -closeInMemoryFile -> map-output of size: 147, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->147
+2019-07-12 22:14:04 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.EventFetcher -EventFetcher.java(76) -EventFetcher is interrupted.. Returning
+2019-07-12 22:14:04 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(591) -1 / 1 copied.
+2019-07-12 22:14:04 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(687) -finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2019-07-12 22:14:04 [ INFO] - org.apache.hadoop.mapred.Merger -Merger.java(606) -Merging 1 sorted segments
+2019-07-12 22:14:04 [ INFO] - org.apache.hadoop.mapred.Merger -Merger.java(705) -Down to the last merge-pass, with 1 segments left of total size: 130 bytes
+2019-07-12 22:14:04 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(754) -Merged 1 segments, 147 bytes to disk to satisfy reduce memory limit
+2019-07-12 22:14:04 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(784) -Merging 1 files, 151 bytes from disk
+2019-07-12 22:14:04 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(799) -Merging 0 segments, 0 bytes from memory into reduce
+2019-07-12 22:14:04 [ INFO] - org.apache.hadoop.mapred.Merger -Merger.java(606) -Merging 1 sorted segments
+2019-07-12 22:14:04 [ INFO] - org.apache.hadoop.mapred.Merger -Merger.java(705) -Down to the last merge-pass, with 1 segments left of total size: 130 bytes
+2019-07-12 22:14:04 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(591) -1 / 1 copied.
+2019-07-12 22:14:04 [ INFO] - org.apache.hadoop.conf.Configuration.deprecation -Configuration.java(1173) -mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2019-07-12 22:14:04 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1367) - map 100% reduce 0%
+2019-07-12 22:14:05 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1038) -Task:attempt_local1908196141_0001_r_000000_0 is done. And is in the process of committing
+2019-07-12 22:14:05 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(591) -1 / 1 copied.
+2019-07-12 22:14:05 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1199) -Task attempt_local1908196141_0001_r_000000_0 is allowed to commit now
+2019-07-12 22:14:05 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(535) -Saved output of task 'attempt_local1908196141_0001_r_000000_0' to hdfs://node-01:9000/0712wordcount/_temporary/0/task_local1908196141_0001_r_000000
+2019-07-12 22:14:05 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(591) -reduce > reduce
+2019-07-12 22:14:05 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1158) -Task 'attempt_local1908196141_0001_r_000000_0' done.
+2019-07-12 22:14:05 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(325) -Finishing task: attempt_local1908196141_0001_r_000000_0
+2019-07-12 22:14:05 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(456) -reduce task executor complete.
+2019-07-12 22:14:05 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1367) - map 100% reduce 100%
+2019-07-12 22:14:06 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1378) -Job job_local1908196141_0001 completed successfully
+2019-07-12 22:14:06 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1385) -Counters: 35
+	File System Counters
+		FILE: Number of bytes read=660
+		FILE: Number of bytes written=588819
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=220
+		HDFS: Number of bytes written=117
+		HDFS: Number of read operations=13
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=4
+	Map-Reduce Framework
+		Map input records=7
+		Map output records=7
+		Map output bytes=131
+		Map output materialized bytes=151
+		Input split bytes=95
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=7
+		Reduce shuffle bytes=151
+		Reduce input records=7
+		Reduce output records=7
+		Spilled Records=14
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=59
+		Total committed heap usage (bytes)=482344960
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=110
+	File Output Format Counters 
+		Bytes Written=117
+2019-07-12 22:17:28 [ WARN] - org.apache.hadoop.util.NativeCodeLoader -NativeCodeLoader.java(62) -Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-12 22:17:29 [ INFO] - org.apache.hadoop.conf.Configuration.deprecation -Configuration.java(1173) -session.id is deprecated. Instead, use dfs.metrics.session-id
+2019-07-12 22:17:29 [ INFO] - org.apache.hadoop.metrics.jvm.JvmMetrics -JvmMetrics.java(76) -Initializing JVM Metrics with processName=JobTracker, sessionId=
+2019-07-12 22:17:29 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(64) -Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2019-07-12 22:17:29 [ WARN] - org.apache.hadoop.mapreduce.JobResourceUploader -JobResourceUploader.java(171) -No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapreduce.lib.input.FileInputFormat -FileInputFormat.java(283) -Total input paths to process : 1
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(198) -number of splits:1
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapreduce.JobSubmitter -JobSubmitter.java(287) -Submitting tokens for job: job_local817507460_0001
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1294) -The url to track the job: http://localhost:8080/
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(471) -OutputCommitter set in config null
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(108) -File Output Committer Algorithm version is 1
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(489) -OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1339) -Running job: job_local817507460_0001
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(448) -Waiting for map tasks
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(224) -Starting task: attempt_local817507460_0001_m_000000_0
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(108) -File Output Committer Algorithm version is 1
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(612) - Using ResourceCalculatorProcessTree : [ ]
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(756) -Processing split: hdfs://node-01:9000/salary.txt:0+110
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1205) -(EQUATOR) 0 kvi 26214396(104857584)
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(998) -mapreduce.task.io.sort.mb: 100
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(999) -soft limit at 83886080
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1000) -bufstart = 0; bufvoid = 104857600
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1001) -kvstart = 26214396; length = 6553600
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(403) -Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(591) -
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1460) -Starting flush of map output
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1482) -Spilling map output
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1483) -bufstart = 0; bufend = 187; bufvoid = 104857600
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1485) -kvstart = 26214396(104857584); kvend = 26214316(104857264); length = 81/6553600
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.MapTask -MapTask.java(1667) -Finished spill 0
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1038) -Task:attempt_local817507460_0001_m_000000_0 is done. And is in the process of committing
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(591) -map
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1158) -Task 'attempt_local817507460_0001_m_000000_0' done.
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(249) -Finishing task: attempt_local817507460_0001_m_000000_0
+2019-07-12 22:17:30 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(456) -map task executor complete.
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(448) -Waiting for reduce tasks
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(302) -Starting task: attempt_local817507460_0001_r_000000_0
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(108) -File Output Committer Algorithm version is 1
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(612) - Using ResourceCalculatorProcessTree : [ ]
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapred.ReduceTask -ReduceTask.java(362) -Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@436711f
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(197) -MergerManager: memoryLimit=492149152, maxSingleShuffleLimit=123037288, mergeThreshold=324818464, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.EventFetcher -EventFetcher.java(61) -attempt_local817507460_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher -LocalFetcher.java(144) -localfetcher#1 about to shuffle output of map attempt_local817507460_0001_m_000000_0 decomp: 231 len: 235 to MEMORY
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput -InMemoryMapOutput.java(100) -Read 231 bytes from map-output for attempt_local817507460_0001_m_000000_0
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(315) -closeInMemoryFile -> map-output of size: 231, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->231
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.EventFetcher -EventFetcher.java(76) -EventFetcher is interrupted.. Returning
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(591) -1 / 1 copied.
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(687) -finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapred.Merger -Merger.java(606) -Merging 1 sorted segments
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapred.Merger -Merger.java(705) -Down to the last merge-pass, with 1 segments left of total size: 223 bytes
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(754) -Merged 1 segments, 231 bytes to disk to satisfy reduce memory limit
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(784) -Merging 1 files, 235 bytes from disk
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl -MergeManagerImpl.java(799) -Merging 0 segments, 0 bytes from memory into reduce
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapred.Merger -Merger.java(606) -Merging 1 sorted segments
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapred.Merger -Merger.java(705) -Down to the last merge-pass, with 1 segments left of total size: 223 bytes
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(591) -1 / 1 copied.
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1360) -Job job_local817507460_0001 running in uber mode : false
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1367) - map 100% reduce 0%
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.conf.Configuration.deprecation -Configuration.java(1173) -mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2019-07-12 22:17:31 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1038) -Task:attempt_local817507460_0001_r_000000_0 is done. And is in the process of committing
+2019-07-12 22:17:32 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(591) -1 / 1 copied.
+2019-07-12 22:17:32 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1199) -Task attempt_local817507460_0001_r_000000_0 is allowed to commit now
+2019-07-12 22:17:32 [ INFO] - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter -FileOutputCommitter.java(535) -Saved output of task 'attempt_local817507460_0001_r_000000_0' to hdfs://node-01:9000/0712wordcount1/_temporary/0/task_local817507460_0001_r_000000
+2019-07-12 22:17:32 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(591) -reduce > reduce
+2019-07-12 22:17:32 [ INFO] - org.apache.hadoop.mapred.Task -Task.java(1158) -Task 'attempt_local817507460_0001_r_000000_0' done.
+2019-07-12 22:17:32 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(325) -Finishing task: attempt_local817507460_0001_r_000000_0
+2019-07-12 22:17:32 [ INFO] - org.apache.hadoop.mapred.LocalJobRunner -LocalJobRunner.java(456) -reduce task executor complete.
+2019-07-12 22:17:32 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1367) - map 100% reduce 100%
+2019-07-12 22:17:32 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1378) -Job job_local817507460_0001 completed successfully
+2019-07-12 22:17:32 [ INFO] - org.apache.hadoop.mapreduce.Job -Job.java(1385) -Counters: 35
+	File System Counters
+		FILE: Number of bytes read=828
+		FILE: Number of bytes written=586043
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=220
+		HDFS: Number of bytes written=128
+		HDFS: Number of read operations=13
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=4
+	Map-Reduce Framework
+		Map input records=7
+		Map output records=21
+		Map output bytes=187
+		Map output materialized bytes=235
+		Input split bytes=95
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=18
+		Reduce shuffle bytes=235
+		Reduce input records=21
+		Reduce output records=18
+		Spilled Records=42
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=43
+		Total committed heap usage (bytes)=468189184
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=110
+	File Output Format Counters 
+		Bytes Written=128
