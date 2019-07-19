@@ -20,7 +20,7 @@ public class FileReadFromHdfs {
     public static void main(String[] args) {
         try {
             //
-            String srcFile = "hdfs://node-01:9000/data/hdfs01.mp4";
+            String srcFile = "hdfs://node1:9000/data/hdfs01.mp4";
             Configuration conf = new Configuration();
 
             FileSystem fs = FileSystem.get(URI.create(srcFile),conf);

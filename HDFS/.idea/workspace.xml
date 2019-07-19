@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05d93d6b-ae5e-4ebe-883a-c99ee082ca52" name="Default Changelist" comment="" />
+    <list default="true" id="05d93d6b-ae5e-4ebe-883a-c99ee082ca52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileSystemCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log4jtest.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4jtest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileCopyFromLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileCopyFromLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileReadFromHdfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileReadFromHdfs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/core-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/core-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/yarn-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/yarn-site.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +26,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileCopyFromLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-308">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="242">
+              <caret line="17" column="47" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileReadFromHdfs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileSystemCat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,6 +70,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>node-01</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -55,7 +95,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/smallfile/SequenceFileWriteDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/smallfile/SequenceFileWriteOldVersion.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/smallfile/SequenceFileWriteNewVersion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileReadFromHdfs.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/smallfile/SequenceFileReadNewVersion.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/smallfile/SequenceFileReadOldVersion.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/wordcount/SingleWordCount.java" />
@@ -63,9 +102,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapred-site.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/wordcount/WordCountMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/wordcount/WordCountMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileCopyFromLocal.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../testGITGUI.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/yarn-site.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileReadFromHdfs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileSystemCat.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/core-site.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileCopyFromLocal.java" />
       </list>
     </option>
   </component>
@@ -96,28 +139,19 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="28" />
-    <option name="width" value="600" />
-    <option name="height" value="403" />
+    <option name="x" value="159" />
+    <option name="y" value="48" />
+    <option name="width" value="1400" />
+    <option name="height" value="786" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="HDFS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HDFS" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -129,6 +163,29 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HDFS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HDFS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HDFS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HDFS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HDFS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HDFS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,7 +193,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Code_HadoopDefinitive/ch03-hdfs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -172,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordCountMain">
+  <component name="RunManager" selected="Application.FileCopyFromLocal">
     <configuration name="FileCopyFromLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kaikeba.hadoop.hdfs.FileCopyFromLocal" />
       <module name="com.kaikeba.hadoop" />
@@ -188,6 +245,19 @@
     </configuration>
     <configuration name="FileReadFromHdfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kaikeba.hadoop.hdfs.FileReadFromHdfs" />
+      <module name="com.kaikeba.hadoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaikeba.hadoop.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileSystemCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kaikeba.hadoop.hdfs.FileSystemCat" />
       <module name="com.kaikeba.hadoop" />
       <extension name="coverage">
         <pattern>
@@ -258,38 +328,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCountPartitioner" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kaikeba.hadoop.partitioner.WordCountMain" />
-      <module name="com.kaikeba.hadoop" />
-      <option name="PROGRAM_PARAMETERS" value="/BigFile.txt /wordcount03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kaikeba.hadoop.partitioner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.SecondarySort" />
       <item itemvalue="Application.SequenceFileDemo" />
       <item itemvalue="Application.SequenceFileReadNewVersion" />
       <item itemvalue="Application.WordCountMain" />
-      <item itemvalue="Application.FileCopyFromLocal" />
+      <item itemvalue="Application.FileSystemCat" />
       <item itemvalue="Application.FileReadFromHdfs" />
       <item itemvalue="Application.SequenceFileWriteNewVersion" />
-      <item itemvalue="Application.WordCountPartitioner" />
       <item itemvalue="Application.SingleWordCount" />
+      <item itemvalue="Application.FileCopyFromLocal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileCopyFromLocal" />
+        <item itemvalue="Application.FileSystemCat" />
         <item itemvalue="Application.SingleWordCount" />
         <item itemvalue="Application.SequenceFileWriteNewVersion" />
-        <item itemvalue="Application.FileCopyFromLocal" />
         <item itemvalue="Application.FileReadFromHdfs" />
-        <item itemvalue="Application.WordCountPartitioner" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +367,8 @@
       <workItem from="1563420566087" duration="2821000" />
       <workItem from="1563440471847" duration="443000" />
       <workItem from="1563441433469" duration="726000" />
-      <workItem from="1563442230363" duration="1584000" />
+      <workItem from="1563442230363" duration="9152000" />
+      <workItem from="1563498742305" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary="modify pom.xml">
       <created>1563442546056</created>
@@ -334,17 +391,23 @@
       <option name="project" value="LOCAL" />
       <updated>1563446265484</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="linux">
+      <created>1563446519136</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563446519136</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8065000" />
+    <option name="totallyTimeSpent" value="15678000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1360" height="600" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="28" width="1364" height="604" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.13643293" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.19680852" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -353,7 +416,7 @@
       <window_info id="Structure" order="6" sideWeight="0.50106156" weight="0.2648855" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.7111756" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49941793" weight="0.78955007" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49941793" weight="0.54357797" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,7 +424,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.57184327" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5005821" side_tool="true" weight="0.54587156" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3287037" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49941793" weight="0.43541363" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49941793" weight="0.4351852" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -386,23 +449,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="linux" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/partitioner/WordCountMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/secondarysort/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/partitioner/CustomPartitioner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -446,13 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/core-site.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hdfs-site.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -471,16 +510,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.3/hadoop-common-2.7.3-sources.jar!/org/apache/hadoop/io/IOUtils.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.3/hadoop-mapreduce-client-core-2.7.3.jar!/org/apache/hadoop/mapreduce/Mapper.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.3/hadoop-common-2.7.3-sources.jar!/org/apache/hadoop/io/LongWritable.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileReadFromHdfs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/smallfile/SequenceFileReadOldVersion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -562,11 +591,6 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.3/hadoop-common-2.7.3.jar!/org/apache/hadoop/fs/FileSystem.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.3/hadoop-common-2.7.3.jar!/org/apache/hadoop/conf/Configuration.class" />
-    <entry file="file://$PROJECT_DIR$/logs/log4jtest.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-840" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/wordcount/WordCountMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="501">
@@ -586,24 +610,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../testGITGUI.txt">
+    <entry file="file://$PROJECT_DIR$/../testGITGUI.txt" />
+    <entry file="file://$PROJECT_DIR$/../测试git工具.txt" />
+    <entry file="file://$PROJECT_DIR$/logs/log4jtest.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
+        <state relative-caret-position="-31454" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../测试git工具.txt">
+    <entry file="file://$PROJECT_DIR$/output.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state>
+          <caret column="43" lean-forward="true" selection-end-column="19014" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileCopyFromLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="242">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/core-site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileSystemCat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaikeba/hadoop/hdfs/FileReadFromHdfs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
